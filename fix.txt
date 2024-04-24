@@ -1,0 +1,13 @@
+        a {
+      text-decoration: none;
+      color: #1890ff;
+      font-size: 18px;
+    }
+	
+	.cover__wrap.full-width img {
+      background-color: #1890ff;
+    }
+	.main-block__img img {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
