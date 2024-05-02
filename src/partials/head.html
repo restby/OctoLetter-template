@@ -2,12 +2,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="color-scheme" content="light dark" />
-  <meta name="supported-color-schemes" content="light dark" />
+  <!-- <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" /> -->
   <title>Octo Browser</title>
   <style type="text/css">
-    /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
-
     table {
       border-spacing: 0;
       mso-cellspacing: 0;
@@ -28,14 +26,31 @@
       font-size: 18px;
     }
 
+    p,
+    span,
+    ul li {
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 400;
+      color: #727272;
+    }
+
+    b {
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 700;
+      color: #727272;
+    }
+
     .cover__wrap,
-    .main-block__img {
+    .main-block__wrap {
       background-color: #727272;
     }
 
     @media screen and (max-width: 599.98px) {
       .full-width img,
-      .main-block__img img {
+      .cover__link-wrap img,
+      .main-block__wrap img {
         width: 100% !important;
         max-width: 100% !important;
       }
