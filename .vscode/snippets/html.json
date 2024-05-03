@@ -116,10 +116,16 @@
     ],
     "description": "Snippet for email H section"
   },
-  "P section": {
+  "A section": {
     "prefix": "e-a-section",
     "body": [
-      "<a href=\"#$1\" title=\"#$2\" target=\"_blank\" rel=\"noopener\">$3</a>"
+      "<!-- Text A section -->",
+      "<tr>",
+      "  <td class=\"text-a\">",
+      "    <a href=\"#$1\" title=\"#$2\" target=\"_blank\" rel=\"noopener\">$3</a>",
+      "  </td>",
+      "</tr>",
+      "<!-- End Text A section -->"
     ],
     "description": "Snippet for email A section"
   },
